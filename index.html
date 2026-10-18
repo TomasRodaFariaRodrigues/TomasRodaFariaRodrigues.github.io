@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Your Name · Economist</title>
+<meta name="description" content="Your Name, economist. Projects, code, education and experience.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="bar">
+  <div class="wrap bar-inner">
+    <a class="mark" href="#top">Your Name</a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#projects">Projects</a>
+      <a href="#toolkit">Toolkit</a>
+      <a href="#background">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="cv.pdf">CV</a>
+      <a href="https://github.com/yourhandle">GitHub ↗</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top" class="wrap">
+
+  <!-- Intro -->
+  <section class="hero">
+    <p class="status"><span class="dot" aria-hidden="true"></span>Open to research and analyst roles</p>
+    <h1 class="display">Your Name<span class="stop">.</span></h1>
+    <p class="lede">Economist · Macroeconomics &amp; computational methods</p>
+  </section>
+
+  <div class="bento">
+    <section class="tile t-bio">
+      <h2 class="eyebrow">About</h2>
+      <p>I build quantitative models of how households and firms respond to shocks, and write the code to solve and estimate them. I am interested in credit, consumption and the propagation of aggregate risk.</p>
+      <div class="actions">
+        <a class="pill pill-main" href="#featured">Featured project →</a>
+        <a class="pill" href="cv.pdf">Download CV</a>
+      </div>
+    </section>
+
+    <figure class="tile t-photo">
+      <img src="assets/photo.svg" alt="Portrait of Your Name" width="400" height="500">
+    </figure>
+
+    <a class="tile t-tools" href="#toolkit">
+      <h2 class="eyebrow">Toolkit</h2>
+      <ul class="chips"><li>MATLAB</li><li>Python</li><li>Stata</li><li>R</li></ul>
+      <p class="more">4 languages · 14 packages · See full toolkit ↓</p>
+    </a>
+
+    <section class="tile t-contact" id="contact">
+      <h2 class="eyebrow">Contact</h2>
+      <p class="sel">you@email.com</p>
+      <p class="links"><a href="https://github.com/yourhandle">GitHub</a><a href="https://www.linkedin.com/">LinkedIn</a><a href="https://scholar.google.com/">Scholar</a></p>
+    </section>
+
+    <!-- Featured project -->
+    <article class="tile t-feature" id="featured">
+      <h2 class="eyebrow">Featured project · 2026</h2>
+      <h3>Title of your largest or most recent project</h3>
+      <div class="feature-body">
+        <p>Two or three sentences on the question, what you built and what you found. Example: a heterogeneous-agent model of how tighter borrowing limits change household consumption, calibrated to Canadian micro data.</p>
+        <ul class="facts">
+          <li><span>Methods</span>Heterogeneous agents, VFI, calibration</li>
+          <li><span>Tools</span>MATLAB, Python</li>
+        </ul>
+        <p class="links"><a href="projects/featured.pdf">Write-up</a><a href="projects/featured-slides.pdf">Slides</a><a href="https://github.com/yourhandle/featured-project">Code</a></p>
+      </div>
+    </article>
+  </div>
+
+  <!-- Projects -->
+  <section class="section" id="projects">
+    <div class="section-head">
+      <h2 class="section-title">Projects</h2>
+      <p class="muted">Code and write-ups. Repositories marked <span class="badge badge-soon">Coming soon</span> are being prepared for GitHub.</p>
+    </div>
+    <div class="projects">
+      <a class="tile t-proj" href="https://github.com/yourhandle/stochastic-growth">
+        <div class="proj-top"><span class="badge badge-soon">Coming soon</span><span class="mono">MATLAB</span></div>
+        <div class="thumb" aria-hidden="true">
+          <svg viewBox="0 0 200 100" preserveAspectRatio="none"><path d="M0 92 C 30 90, 50 55, 80 42 S 140 22, 200 18" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M0 92 L 60 92 C 80 74, 120 50, 200 40" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 4" opacity=".55"/></svg>
+        </div>
+        <h3>Stochastic growth model with a borrowing constraint</h3>
+        <p class="muted">Value function iteration on a discretized income process: policy functions, stationary distribution and impulse responses.</p>
+      </a>
+      <a class="tile t-proj" href="https://github.com/yourhandle/project-two">
+        <div class="proj-top"><span class="badge badge-live">On GitHub</span><span class="mono">Python</span></div>
+        <div class="thumb" aria-hidden="true">
+          <svg viewBox="0 0 200 100" preserveAspectRatio="none"><g fill="currentColor"><rect x="15" y="55" width="22" height="45" rx="3"/><rect x="50" y="35" width="22" height="65" rx="3"/><rect x="85" y="20" width="22" height="80" rx="3"/><rect x="120" y="44" width="22" height="56" rx="3"/><rect x="155" y="30" width="22" height="70" rx="3"/></g></svg>
+        </div>
+        <h3>Second project name</h3>
+        <p class="muted">One or two lines on what the code does and what someone can learn from it.</p>
+      </a>
+      <a class="tile t-proj" href="https://github.com/yourhandle/project-three">
+        <div class="proj-top"><span class="badge badge-soon">Coming soon</span><span class="mono">Stata · R</span></div>
+        <div class="thumb" aria-hidden="true">
+          <svg viewBox="0 0 200 100" preserveAspectRatio="none"><g fill="currentColor"><circle cx="20" cy="78" r="4"/><circle cx="45" cy="70" r="4"/><circle cx="62" cy="62" r="4"/><circle cx="88" cy="58" r="4"/><circle cx="104" cy="46" r="4"/><circle cx="130" cy="44" r="4"/><circle cx="150" cy="32" r="4"/><circle cx="178" cy="24" r="4"/></g><path d="M10 84 L 190 20" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 4" opacity=".6"/></svg>
+        </div>
+        <h3>Third project name</h3>
+        <p class="muted">An empirical project: data, identification strategy and the main estimate.</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- Toolkit: each language with the packages used inside it -->
+  <section class="section" id="toolkit">
+    <div class="section-head">
+      <h2 class="section-title">Toolkit</h2>
+      <p class="muted">Each language with the packages and toolboxes I use inside it.</p>
+    </div>
+    <div class="stack">
+      <div class="tile lang">
+        <div class="lang-head"><h3>MATLAB</h3><span class="mono">Numerical modelling</span></div>
+        <ul class="pkgs">
+          <li><span class="pkg">Dynare</span><span class="use">DSGE solution and estimation</span></li>
+          <li><span class="pkg">Optimization Toolbox</span><span class="use">Calibration, root-finding</span></li>
+          <li><span class="pkg">Parallel Computing</span><span class="use">Faster value function iteration</span></li>
+        </ul>
+      </div>
+      <div class="tile lang">
+        <div class="lang-head"><h3>Python</h3><span class="mono">Data and simulation</span></div>
+        <ul class="pkgs">
+          <li><span class="pkg">NumPy · SciPy</span><span class="use">Arrays, interpolation, optimisation</span></li>
+          <li><span class="pkg">pandas</span><span class="use">Cleaning and merging data</span></li>
+          <li><span class="pkg">statsmodels</span><span class="use">Regression, time series</span></li>
+          <li><span class="pkg">QuantEcon</span><span class="use">Markov chains, dynamic programming</span></li>
+          <li><span class="pkg">matplotlib</span><span class="use">Figures for papers</span></li>
+        </ul>
+      </div>
+      <div class="tile lang">
+        <div class="lang-head"><h3>Stata</h3><span class="mono">Applied econometrics</span></div>
+        <ul class="pkgs">
+          <li><span class="pkg">reghdfe</span><span class="use">High-dimensional fixed effects</span></li>
+          <li><span class="pkg">ivreg2</span><span class="use">Instrumental variables</span></li>
+          <li><span class="pkg">estout</span><span class="use">Regression tables to LaTeX</span></li>
+        </ul>
+      </div>
+      <div class="tile lang">
+        <div class="lang-head"><h3>R</h3><span class="mono">Statistics</span></div>
+        <ul class="pkgs">
+          <li><span class="pkg">fixest</span><span class="use">Fast fixed-effects estimation</span></li>
+          <li><span class="pkg">tidyverse</span><span class="use">Data wrangling and plots</span></li>
+          <li><span class="pkg">data.table</span><span class="use">Large datasets</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="tile workflow">
+      <span class="eyebrow">Workflow</span>
+      <ul class="chips"><li>Git &amp; GitHub</li><li>LaTeX · Beamer</li><li>Jupyter</li><li>VS Code</li></ul>
+    </div>
+  </section>
+
+  <!-- Education & experience -->
+  <section class="section" id="background">
+    <div class="duo">
+      <div class="tile t-list">
+        <h2 class="eyebrow">Education</h2>
+        <div class="entries">
+          <details class="entry" open>
+            <summary><span class="when">2024–2026</span><span class="what"><strong>MA in Economics</strong><span class="muted">University Name</span></span><span class="chev" aria-hidden="true"></span></summary>
+            <ul class="detail">
+              <li>Thesis: “Title of your thesis” (supervisor: Prof. Name)</li>
+              <li>Core courses: Macroeconomic Theory, Econometrics I–II, Computational Methods</li>
+              <li>Award or scholarship, if any</li>
+            </ul>
+          </details>
+          <details class="entry">
+            <summary><span class="when">2020–2024</span><span class="what"><strong>BA in Economics</strong><span class="muted">University Name</span></span><span class="chev" aria-hidden="true"></span></summary>
+            <ul class="detail">
+              <li>Honours, minor in Mathematics</li>
+              <li>Relevant courses: Real Analysis, Linear Algebra, Time Series</li>
+              <li>Dean’s list or GPA, if you want to show it</li>
+            </ul>
+          </details>
+        </div>
+      </div>
+      <div class="tile t-list" id="experience">
+        <h2 class="eyebrow">Experience</h2>
+        <div class="entries">
+          <details class="entry" open>
+            <summary><span class="when">2025–now</span><span class="what"><strong>Research Assistant</strong><span class="muted">Prof. Name, University Name</span></span><span class="chev" aria-hidden="true"></span></summary>
+            <ul class="detail">
+              <li>Built and solved a heterogeneous-agent model in MATLAB</li>
+              <li>Cleaned and merged survey data in Stata and Python</li>
+              <li>Prepared figures and tables for a working paper</li>
+            </ul>
+            <ul class="chips tight"><li>MATLAB</li><li>Dynare</li><li>Stata</li></ul>
+          </details>
+          <details class="entry">
+            <summary><span class="when">2024–2025</span><span class="what"><strong>Teaching Assistant</strong><span class="muted">Intermediate Macroeconomics</span></span><span class="chev" aria-hidden="true"></span></summary>
+            <ul class="detail">
+              <li>Led weekly tutorials for about 40 students</li>
+              <li>Wrote problem-set solutions and graded midterms</li>
+            </ul>
+          </details>
+          <details class="entry">
+            <summary><span class="when">Summer 2024</span><span class="what"><strong>Economics Intern</strong><span class="muted">Organization Name</span></span><span class="chev" aria-hidden="true"></span></summary>
+            <ul class="detail">
+              <li>One line on the project you worked on</li>
+              <li>One line on what you produced (a brief, a dashboard, a model)</li>
+            </ul>
+            <ul class="chips tight"><li>Python</li><li>pandas</li></ul>
+          </details>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="wrap foot">© 2026 Your Name · Last updated October 2026</footer>
+</body>
+</html>
